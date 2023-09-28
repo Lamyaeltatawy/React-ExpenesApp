@@ -1,0 +1,48 @@
+.form {
+    position: relative;
+    transform: translate(44%,8%);
+    width: 800px;
+    background-color: rgb(159, 91, 222);
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.new-expense__controls {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    color: black;
+}
+
+.new-expense__actions {
+    text-align: right;
+}
+
+.new-expense__actions button {
+    /* color: black; */
+    border-radius: 7px;
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(83, 22, 140);
+    font-weight: 600;
+}
